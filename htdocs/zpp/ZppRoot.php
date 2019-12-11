@@ -10,7 +10,7 @@
  * @version     2019.12.09
  */
 
-abstract class ZppRoot
+class ZppRoot
 {
     function __construct( )
     {

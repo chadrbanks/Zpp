@@ -1,13 +1,13 @@
 <?php
 /**
- * ZppMain 
+ * ZppMain
  *
  * Main implementation.
  * 
  * @author      Chad R. Banks <chadrbanks@yahoo.com>
  * @copyright   MIT
  * @package     zpp
- * @version     2019.12.09
+ * @version     2019.12.10
  */
 
 class ZppMain extends ZppRoot
