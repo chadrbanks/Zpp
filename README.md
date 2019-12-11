@@ -1,16 +1,11 @@
 # Zpp
 
-Zpp is an open-source experiment that attempts to use PHP in a more OOP way such as C++.
-
-This README would normally document whatever steps are necessary to get your application up and running.
-
 Badges go here!
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Zpp is an open-source experiment that attempts to use PHP in a more OOP way such as C++.
+* r0.1.0
 
 ### How do I get set up? ###
 
@@ -29,5 +24,6 @@ Badges go here!
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* [@chadrbanks](https://twitter.com/Chadrbanks)
+* [@tkamin72](https://github.com/tkamin72)
+* [@fsobh](https://github.com/fsobh)
