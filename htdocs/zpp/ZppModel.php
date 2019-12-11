@@ -8,10 +8,10 @@
  * @copyright   MIT
  * @link        https://www.sitepoint.com/the-mvc-pattern-and-php-1/
  * @package     zpp
- * @version     2019.12.09
+ * @version     2019.12.11
  */
 
-abstract class ZppModel extends ZppRoot
+abstract class ZppModel extends ZppObj
 {
 	function __construct( )
 	{

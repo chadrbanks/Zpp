@@ -7,10 +7,10 @@
  * @author      Chad R. Banks <chadrbanks@yahoo.com>
  * @copyright   MIT
  * @package     zpp
- * @version     2019.12.10
+ * @version     2019.12.11
  */
 
-class ZppMain extends ZppRoot
+class ZppMain extends ZppObj
 {
     function main( $args = array( ) )
     {

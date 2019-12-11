@@ -1,4 +1,16 @@
-<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+<?php
+/**
+ * cover.php
+ *
+ * Basic page template.
+ *
+ * @author      Chad R. Banks <chadrbanks@yahoo.com>
+ * @copyright   MIT
+ * @package     zpp
+ * @version     2019.12.11
+ */
+
+?><div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
 	<header class="masthead mb-auto">
 		<div class="inner">
 			<h3 class="masthead-brand">Zpp</h3>
