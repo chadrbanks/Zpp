@@ -14,5 +14,5 @@ spl_autoload_register(function ($class_name) {
     include __DIR__ . DIRECTORY_SEPARATOR . "zpp" . DIRECTORY_SEPARATOR . "$class_name.php";
 });
 
-$zpp  = new ZppEngine();
+$zpp  = new ZppMain( );
 $zpp -> main( );

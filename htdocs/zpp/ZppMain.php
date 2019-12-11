@@ -1,6 +1,6 @@
 <?php
 /**
- * ZppEngine 
+ * ZppMain 
  *
  * Main implementation.
  * 
@@ -10,18 +10,10 @@
  * @version     2019.12.09
  */
 
-class ZppEngine extends ZppRoot
+class ZppMain extends ZppRoot
 {
     function main( $args = array( ) )
     {
-        /*
-        // Example MVC implementation
-        $model = new Model();
-        $controller = new Controller($model);
-        $view = new View($controller, $model);
-        echo $view->render();
-        */
-
         // Model
         $model = new ZppModelImplementation(  );
 
