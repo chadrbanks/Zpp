@@ -1,19 +1,19 @@
 <?php
 /**
- * ZppModelEvent 
+ * ZppModelEvent
  *
  * Event model implementation.
  * 
  * @author      Chad R. Banks <chadrbanks@yahoo.com>
  * @copyright   MIT
  * @package     zpp
- * @version     2019.12.09
+ * @version     2019.12.11
  */
 
 class ZppModelEvent extends ZppModel
 {
-	protected $evts = array( );
-    protected $logging = null;
+	private $evts = array( );
+	private $logging = null;
     
     function __construct( $l = 0 )
     {
