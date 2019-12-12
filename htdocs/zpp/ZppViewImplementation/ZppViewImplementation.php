@@ -17,8 +17,8 @@ class ZppViewImplementation extends ZppViewHTML
 	{
 		parent::__construct( $uri_con, $event );
 
-        $this -> controller = $uri_con;
-        $this -> model = $event;
+        $this -> controller	= $uri_con;
+        $this -> model		= $event;
 
         // This is using the event system just as an example
         $this -> model -> listen( 'view_rending', $this, 'render_cover_page' );
@@ -38,7 +38,7 @@ class ZppViewImplementation extends ZppViewHTML
 			'<meta name="description" content="">',
 			'<meta name="author" content="">',
 			'<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">',
-			'<title>Cover Template for Bootstrap</title>',
+			'<title>Zpp Bootstrap Cover</title>',
 			'<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/cover/">',
 			'<!-- Bootstrap core CSS -->',
 			'<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">',

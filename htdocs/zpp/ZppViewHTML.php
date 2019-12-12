@@ -24,15 +24,15 @@ class ZppViewHTML extends ZppView
 	{
 		parent::__construct( $uri_con, $event );
 
-		$this -> controller = $uri_con;
-		$this -> model = $event;
+		$this -> controller     = $uri_con;
+		$this -> model          = $event;
 
-        $this -> head_content = '';
-        $this -> body_content = '';
-        $this -> head_script = '';
-        $this -> body_script = '';
-        $this -> meta_tags = '';
-        $this -> buffers = 0;
+        $this -> head_content   = '';
+        $this -> body_content   = '';
+        $this -> head_script    = '';
+        $this -> body_script    = '';
+        $this -> meta_tags      = '';
+        $this -> buffers        = 0;
 	}
 
     protected function addMeta( $meta )

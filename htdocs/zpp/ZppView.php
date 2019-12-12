@@ -21,7 +21,7 @@ abstract class ZppView extends ZppObj
         parent::__construct( );
 
         $this -> controller = $c;
-        $this -> model = $m;
+        $this -> model      = $m;
     }
 
     abstract public function render( );
