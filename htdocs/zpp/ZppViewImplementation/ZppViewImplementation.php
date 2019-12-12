@@ -7,7 +7,7 @@
  * @author      Chad R. Banks <chadrbanks@yahoo.com>
  * @copyright   MIT
  * @package     zpp
- * @version     2019.12.10
+ * @version     2019.12.11
  */
 
 class ZppViewImplementation extends ZppViewHTML
@@ -21,10 +21,10 @@ class ZppViewImplementation extends ZppViewHTML
         $this -> model = $event;
 
         // This is using the event system just as an example
-        $this -> model -> listen( 'view_rending', $this, 'add_content' );
+        $this -> model -> listen( 'view_rending', $this, 'render_cover_page' );
 	}
 
-	function add_content( $args = array() )
+	function render_cover_page( $args = array() )
     {
         // This is where you would build the page....
 		// Below is an example page using Bootstrap.
